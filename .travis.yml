@@ -131,6 +131,13 @@ matrix:
     - python: 3.6
       env: TOXENV=py36-dj111-drf36-codecov
 
+    - python: 3.6
+      env: TOXENV=py36-dj21-drf39-codecov
+
+    - python: 3.6
+      env: TOXENV=py36-dj22-drf39-codecov
+
+
 install:
   - pip install tox
 
